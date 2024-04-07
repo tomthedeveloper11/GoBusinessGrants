@@ -7,9 +7,12 @@ export default function Navbar() {
   return (
     <nav className="flex w-full gap-x-5 items-center justify-between pb-5 px-24">
       <div className="flex gap-x-7 items-center">
-        <Image src={logo} alt="Homepage" width={165} />
+        <a href="/">
+          <Image src={logo} alt="Homepage" width={165} />
+        </a>
+
         <div className="flex gap-x-5 font-medium">
-          <a href="/profile" className="flex items-center gap-x-1">
+          <a href="/" className="flex items-center gap-x-1">
             Start a Business
             <span>
               <ChevronDown size={20} />
