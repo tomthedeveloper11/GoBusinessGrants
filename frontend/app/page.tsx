@@ -111,9 +111,7 @@ export default function Home() {
                 onChange={(e) => setCompanyStage(e.target.value)}
                 className="border border-zinc-400 rounded-md px-1 opacity-60"
               >
-                <option value="all" disabled>
-                  Select stage
-                </option>
+                <option value="all">Select stage</option>
                 <option value="Startup">Startup</option>
                 <option value="SME">SME</option>
                 <option value="LLE">LLE</option>
