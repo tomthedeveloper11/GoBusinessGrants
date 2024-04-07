@@ -78,4 +78,8 @@ export const columns: ColumnDef<Data>[] = [
     accessorKey: "amountOfFunding",
     header: "Amount",
   },
+  {
+    accessorKey: "link",
+    header: "Link",
+  },
 ];

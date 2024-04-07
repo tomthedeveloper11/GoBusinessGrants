@@ -51,6 +51,11 @@ export function DataTable<TData, TValue>({
       columnFilters,
     },
     getPaginationRowModel: getPaginationRowModel(),
+    initialState: {
+      columnVisibility: {
+        link: false,
+      },
+    },
   });
 
   return (
@@ -78,19 +83,25 @@ export function DataTable<TData, TValue>({
           <TableBody>
             {table.getRowModel().rows?.length ? (
               table.getRowModel().rows.map((row) => (
-
                 <TableRow
                   key={row.id}
                   data-state={row.getIsSelected() && "selected"}
+                  className="hover:cursor-pointer relative"
                 >
                   {row.getVisibleCells().map((cell) => (
                     <TableCell key={cell.id}>
-                        {flexRender(
-                          cell.column.columnDef.cell,
-                          cell.getContext()
-                        )}
+                      {flexRender(
+                        cell.column.columnDef.cell,
+                        cell.getContext()
+                      )}
                     </TableCell>
                   ))}
+                  <td>
+                    <a
+                      href={row.getValue("link")}
+                      className="absolute inset-0"
+                    ></a>
+                  </td>
                 </TableRow>
               ))
             ) : (

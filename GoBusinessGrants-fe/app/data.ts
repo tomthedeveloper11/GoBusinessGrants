@@ -19,15 +19,14 @@ export const rawData: any = [
     businessNeeds: "Digitise with Technology",
     amountOfFunding: "80%, GST included",
     shortDescription:
-      "Behind every thriving business lies a successful growth strategy. Building a technology roadmap through the Operation & Technology Roadmap (OTR) programme will help you form a strategic business plan to grow your business in the long term.",
+      "OTR aligns tech with goals, mitigates risk, and optimizes resources for long-term growth.",
     fullDescription:
       "Behind every thriving business lies a successful growth strategy. Building a technology roadmap through the Operation & Technology Roadmap (OTR) programme will help you form a strategic business plan to grow your business in the long term.",
     stage: ["LLE"],
     eligibility: [
-      "Incorporated a business entity in Singapore with the Accounting and Corporate Regulatory Authority (ACRA)",
-      "At least 30% local shareholdings;",
-      "Company's group annual sales turnover is not more than $100 million or group employment size is not more than 200 workers;",
-      "Core activities to be carried out in Singapore",
+      "Registered under ACRA",
+      "At least 30% local shareholdings",
+      "Less than 200 employees",
     ],
     link: "https://www.a-star.edu.sg/enterprise/innovation-offerings/programmes-for-smes/operation-technology-roadmap",
   },
@@ -38,16 +37,11 @@ export const rawData: any = [
     businessNeeds: "Digitise with Technology",
     amountOfFunding: "Up to 50%",
     shortDescription:
-      "Provides financial support for business owners to adopt pre-scoped IT solutions, equipment and consultancy services to improve productivity which aligned to the Industry Transformation Maps and Industry Digital Plans",
+      "Aids businesses with technology adoption for productivity enhancement, backed financially.",
     fullDescription:
       "The Productivity Solutions Grant (PSG) was launched on April 2018 to help businesses enhance their processes with technology. It provides financial support for business owners to adopt pre-scoped IT solutions, equipment and consultancy services to improve productivity. These solutions are aligned to the industry roadmaps such as the Industry Transformation Maps (ITMs) and Industry Digital Plans (IDPs).",
     stage: ["Startup", "SME", "LLE"],
-    eligibility: [
-      "Registered and operating in Singapore",
-      "Purchase/lease/subscription of the IT solutions/equipment/consultancy service must be used in Singapore",
-      "(For selected solutions only) Have a minimum of 30% local shareholding",
-      "(For consultancy service solutions only) Have at least three local employees at the point of application",
-    ],
+    eligibility: ["Registered under ACRA", "At least 3 employees"],
     link: "https://www.gobusiness.gov.sg/productivity-solutions-grant/#psg-eligibility",
   },
   {
@@ -62,11 +56,9 @@ export const rawData: any = [
       "Support more SMEs to go digital in building their foundational digital capabilities with easy-to-deploy solutions.",
     stage: ["Startup", "SME"],
     eligibility: [
-      "Registered and operating in Singapore",
-      "Minimum of 30 percent local shareholding",
-      "Group sales turnover not more than S$100 million per annum or group employment size not more than 200 employees",
-      "Have not taken up a Start Digital Pack before",
-      "Have not used identical solutions before.",
+      "Registered under ACRA",
+      "At least 30% local shareholding",
+      "Not more than 200 employees",
     ],
     link: "https://www.imda.gov.sg/how-we-can-help/smes-go-digital/start-digital",
   },
@@ -77,14 +69,14 @@ export const rawData: any = [
     businessNeeds: "Expand Overseas, Develop Brand Awareness",
     amountOfFunding: "Up to 70%",
     shortDescription:
-      "SMEs that are ready to sell overseas can receive funding support when they participate in pre-approved Business-to-Business (B2B) and Business-to-Consumer (B2C) e-commerce platforms with global or regional reach.",
+      "Aids SMEs with e-commerce solutions to expand globally sans physical presence",
     fullDescription:
       "Grow Digital, an initiative by the Infocomm Media Development Authority (IMDA) and Enterprise Singapore (ESG) under the SMEs Go Digital programme, offers SMEs digital solutions to expand their businesses through e-commerce platforms, both locally and overseas. By leveraging this initiative and other digitalisation efforts in Singapore, SMEs can participate in Business-to-Business (B2B) and Business-to-Consumer (B2C) e-commerce platforms to sell overseas without a need for physical presence.",
     stage: ["Startup", "SME"],
     eligibility: [
-      "Registered and operating in Singapore",
-      "Minimum of 30% local shareholding",
-      "Group sales turnover not more than S$100 million per annum, or group employment size not more than 200 employees",
+      "Registered under ACRA",
+      "At least 30% local shareholding",
+      "Group turnover <100mil/annum",
     ],
     link: "https://www.imda.gov.sg/how-we-can-help/smes-go-digital/grow-digital",
   },
@@ -95,17 +87,11 @@ export const rawData: any = [
     businessNeeds: "Expand Overseas",
     amountOfFunding: "Up to 70%",
     shortDescription:
-      "TACs keen to drive capability development and internationalisation projects can tap on LEAD programme. LEAD supports up to 70% of eligible costs for qualifying projects.",
+      "LEAD empowers Trade associations and chambers (TACs) to drive capability development and internationalization projects.",
     fullDescription:
       "Trade associations and chambers (TACs) are key enablers in enterprise upgrading and industry development. TACs keen to play a more active role in driving capability development and internationalisation projects can apply for the Local Enterprise and Association Development Programme (LEAD) programme.",
     stage: ["Startup", "SME"],
-    eligibility: [
-      "Only open to TACs",
-      "Represent a key industry and have a sizeable membership",
-      "Demonstrate a strong track record in helping enterprises",
-      "Have a strong and able leadership team with a long-term vision of developing the industry",
-      "Project(s) to be undertaken must not have started at the same time of the application",
-    ],
+    eligibility: ["Only open to TACs", "Project Based"],
     link: "https://www.enterprisesg.gov.sg/financial-support/local-enterprise-and-association-development-programme",
   },
   {
@@ -120,10 +106,9 @@ export const rawData: any = [
       "The Market Readiness Assistance (MRA) grant helps companies expand into new markets overseas by defraying the costs of overseas market promotion, business development and set-up.",
     stage: ["Startup", "SME"],
     eligibility: [
-      "Business entity registered and operating in Singapore",
-      "Company has at least 30% local equity held directly or indirectly by Singaporean(s) and/or Singapore PR(s), determined by the ultimate individual ownership",
+      "Registered under ACRA",
+      "At least 30% local shareholding",
       "New to target overseas market",
-      "Company has a Group Annual Sales Turnover not exceeding S$100 million OR a Group employment size not exceeding 200 employees",
     ],
     link: "https://www.enterprisesg.gov.sg/financial-support/market-readiness-assistance-grant",
   },
@@ -134,15 +119,14 @@ export const rawData: any = [
     businessNeeds: "Conduct R&D",
     amountOfFunding: "Up to 70%",
     shortDescription:
-      "Get access to talents from A*STAR’s Research Institutes and build in-house R&D capabilities.",
+      "Aids local SMEs and LLEs to boost competitiveness with technological advancements",
     fullDescription:
       "Administered by A*STAR and AI Singapore (AISG), the Technology for Enterprise Capability Upgrading (T-UP) programme supports local SMEs and LLEs in enhancing business competitiveness. Get access to researchers, scientists and engineers to enhance your products and technologies.",
     stage: ["Startup", "SME"],
     eligibility: [
-      "Business entity registered or incorporated in Singapore",
-      "Company has at least 30% local equity held directly or indirectly by Singaporean(s) and/or Singapore PR(s), determined by the ultimate individual ownership",
-      "Business entity must be able to finance and complete the project",
-      "Company has a Group Annual Sales Turnover not exceeding S$100 million, OR a Group employment size not exceeding 200 employees",
+      "Registered under ACRA",
+      "At least 30% local shareholding",
+      "Group turnover <100mil/annum",
     ],
     link: "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/innovation-talent/technology-for-enterprise-capability-upgrading",
   },
@@ -153,16 +137,13 @@ export const rawData: any = [
     businessNeeds: "Develop Brand Awareness",
     amountOfFunding: "Up to 70%",
     shortDescription:
-      "Trade associations and chambers (TACs) are key enablers in enterprise upgrading and industry development. TACs keen to play a more active role in driving capability development and internationalisation projects can apply for the Local Enterprise and Association Development Programme (LEAD) programme.",
+      "TACs are pivotal in enterprise upgrading. Those eager to lead capability development can apply for LEAD.",
     fullDescription:
       "Trade associations and chambers (TACs) are key enablers in enterprise upgrading and industry development. TACs keen to play a more active role in driving capability development and internationalisation projects can apply for the Local Enterprise and Association Development Programme (LEAD) programme.",
     stage: ["Startup", "SME"],
     eligibility: [
       "Only open to TACs",
       "Represent a key industry and have a sizeable membership",
-      "Demonstrate a strong track record in helping enterprises",
-      "Have a strong and able leadership team with a long-term vision of developing the industry",
-      "Project(s) to be undertaken must not have started at the same time of the application",
     ],
     link: "https://www.enterprisesg.gov.sg/financial-support/local-enterprise-and-association-development-programme",
   },
@@ -214,7 +195,8 @@ export const rawData: any = [
       "Under the SEC, the Government provides wage offsets to help employers that employ Singaporean workers adjust to the higher Retirement Age and Re-employment Age. Higher support will be given for the older age bands.",
     stage: ["Startup", "SME", "LLE"],
     eligibility: [
-      "All employers that employ employees (Singapore Citizens) aged 60 years and above, earning a monthly wage of up to $4,000 and have made timely mandatory CPF contributions for the employee will qualify for the payout for 2023 to 2025.",
+      "SC employees aged 60 years and above",
+      "Monthly wage of up to $4,000 and contributed to CPF",
     ],
     link: "https://www.iras.gov.sg/schemes/disbursement-schemes/senior-employment-credit-(sec)-cpf-transition-offset-(cto)-and-enabling-employment-credit-(eec)",
   },
@@ -230,7 +212,7 @@ export const rawData: any = [
       "For 2023 to 2025, the wage offset applies to Singaporean workers aged 60 and above and earning up to $4,000 per month. For wages paid between 1 Jan 2023 and 31 Dec 2025, employers will receive up to 8% of the wages paid to these eligible workers, depending on their age and wage.",
     stage: ["Startup", "SME", "LLE"],
     eligibility: [
-      "Singaporeans and Singapore Permanent Residents who are within three years of either graduation from the ITE and Polytechnics or the Operational Ready Date for full-time National Servicemen. Exceptions apply to some WSCerts.",
+      "SC/SPR  who are within three years of either graduation from the ITE and Polytechnics",
     ],
     link: "https://www.gobusiness.gov.sg/enterprisejobskills/programmes-and-initiatives/recruit-talent/skillsfuture-work-study-programmes/",
   },
@@ -242,12 +224,12 @@ export const rawData: any = [
     amountOfFunding:
       "Trainees will gain employment and receive a salary while being equipped with in-demand tech skills. Under the programme, they will also get to work on projects guided by experienced mentors, gain in-depth industry exposure, and enhance their employability and career pathways in tech roles.",
     shortDescription:
-      "CLT accelerates professional development through on-the-job training programme for fresh to mid-level professionals acquiring competencies for jobs in demand by industry, especially the Digital Economy sector.",
+      "CLT program fast-tracks professional development, focusing on tech skills aligned with industry demands, especially in digital economy sectors.",
     fullDescription:
       "The Company-Led Training (CLT) programme aims to accelerate the professional development of tertiary graduates and mid-career professionals including mature PMETs, through an on-the-job training programme to help them achieve competencies for jobs in demand by industry, especially those that support the digital economy sector transformation efforts. The CLT programme aligns to the Skills Framework of ICT and focuses on developing tech skills. Through this programme, participants can take IT courses in Singapore designed to build expertise in these areas, especially in new areas like Artificial Intelligence (AI), Cybersecurity, Internet of Things (IoT), Data Analytics, Blockchain, etc.",
     stage: ["Startup", "SME", "LLE"],
     eligibility: [
-      "Singaporean or Singapore Permanent Resident (SPR)",
+      "SC/SPR",
       "Able to commit to completing the full training programme",
       "Able to meet the hiring requirements of the companies",
     ],
@@ -282,10 +264,7 @@ export const rawData: any = [
     fullDescription:
       "The 3R Fund is a co-funding scheme to encourage organisations to reduce waste disposed of at NEA's incineration plants and disposal facilities through the implementation of waste minimisation and recycling projects.",
     stage: ["Startup", "SME", "LLE"],
-    eligibility: [
-      "Any organisation in Singapore, including companies, non-profit organisations, non-government organisations, town councils, schools, institutions and managing bodies such as MCSTs, can apply for the 3R Fund.",
-      "Projects must result in an increase in the quantity of solid waste (this excludes toxic and chemical wastes) recycled or a reduction in the quantity of solid waste generated. The minimum tonnage eligibility is 100 tonnes reduced, reused or recycled over the whole project duration.",
-    ],
+    eligibility: ["Any organisations", "Increased recycled efforts"],
     link: "https://www.nea.gov.sg/programmes-grants/grants-and-awards/3r-fund",
   },
   {
@@ -301,9 +280,7 @@ export const rawData: any = [
     stage: ["Startup", "SME", "LLE"],
     eligibility: [
       "Premises with monthly water consumption of at least 1,000m3",
-      "At least 10% water savings OR annual water savings of at least 6,000m3",
-      "Premises with minimum monthly water consumption1,2 of at least 1,000m3",
-      "Annual water savings of at least 1,200m3",
+      "10% Water savings requirements",
     ],
     link: "https://www.pub.gov.sg/Public/WaterLoop/Water-Conservation/Incentives-and-Grants/Water-Efficiency-Fund",
   },
@@ -314,18 +291,15 @@ export const rawData: any = [
     businessNeeds: "Improve Working Arrangements",
     amountOfFunding: "Up to $125,000",
     shortDescription:
-      "Provides funding support to companies that voluntarily commit to providing part-time re-employment to all eligible seniors who request for it.",
+      "New PTRG offers up to $125,000 to employers for part-time re-employment and flexible work arrangements, aiming to retain senior workers.",
     fullDescription:
       "The New PTRG provides up to $125,000 to employers who offer part-time re-employment, other flexible work arrangements (FWAs) and structured career planning (SCP) to senior workers. This will provide more flexible work options to attract and retain senior workers, and encourage them to stay in the workforce.",
     stage: ["Startup", "SME", "LLE"],
     eligibility: [
-      "Companies will need to have at least 1 senior worker aged 60 years and above at the point of application and claim",
-      "Provide part-time re-employment opportunities to eligible senior workers who request for it",
-      "Adopt the Tripartite Standard on Age-Friendly Workplace Practices",
-      "Adopt Tripartite Standard on Flexible Work Arrangements",
-      "Offer FWAs and implement SCP as part of their formal HR policy",
-      "Commit to provide SCP to mature employees aged 45 and above in their HR policy",
-      "Send one senior management and one HR practitioner each to attend one session of a fully funded SCP workshop for senior management and HR practitioners respectively conducted by SNEF",
+      "Have at least 1 senior worker aged 60 or above.",
+      "Offer part-time re-employment for eligible seniors.",
+      "Commit to providing SCP for employees aged 45 and above.",
+      "Ensure senior management and HR attend SCP workshops by SNEF.",
     ],
     link: "https://www.wsg.gov.sg/home/employers-industry-partners/workforce-development-job-redesign/new-part-time-re-employment-grant",
   },

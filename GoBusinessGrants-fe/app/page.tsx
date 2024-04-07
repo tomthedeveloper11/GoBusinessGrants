@@ -7,10 +7,10 @@ import { DataTable } from "./data-table";
 import { rawData } from "./data";
 import Navbar from "@/components/navbar/index";
 import { useEffect, useState } from "react";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@radix-ui/react-select";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Textarea } from "@/components/ui/textarea";
 
 export default function Home() {
   const [data, setData] = useState(rawData);
@@ -18,8 +18,6 @@ export default function Home() {
   const [industry, setIndustry] = useState("all");
   const [businessNeed, setBusinessNeed] = useState("all");
   const [initialRender, setInitialRender] = useState(true);
-
-  const [isInput, setIsInput] = useState(false);
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -70,23 +68,6 @@ export default function Home() {
     } else {
       // If it's the initial render, update initialRender state
       setInitialRender(false);
-
-      fetch("http://127.0.0.1:8000/search", {
-        method: "post",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          text: "I own a SME that is looking to expand overseas",
-        }),
-      })
-        .then((res) => {
-          return res.json();
-        })
-        .then((data) => {
-          console.log(data);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
     }
   }, [companyStage, industry, businessNeed]); // Add companyType as a dependency to useEffect
 
@@ -184,7 +165,7 @@ export default function Home() {
               onSubmit={handleSubmit}
               className="flex gap-x-3 mb-8"
             >
-              <Input
+              <Textarea
                 placeholder="I am a SME business owner looking to expand overseas."
                 name="input"
               />
