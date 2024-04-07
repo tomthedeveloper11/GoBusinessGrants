@@ -63,11 +63,9 @@ export const columns: ColumnDef<Data>[] = [
     accessorKey: "eligibility",
     header: "Eligibility",
     cell: ({ row }) => {
-      const updatedValue = row.getValue("eligibility").slice(0, 2);
-      updatedValue[1] += "...";
       return (
         <ul className="list-disc">
-          {updatedValue.map((item, index) => (
+          {row.getValue("eligibility").map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
